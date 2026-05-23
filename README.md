@@ -20,7 +20,7 @@ Para testar o projeto no seu computador, você só vai precisar ter o Node.js in
 
 Primeiro, abra o seu terminal e faça o clone do projeto rodando o comando:
 ```bash
-git clone [https://github.com/SEU_USUARIO/vitrine-local-app.git](https://github.com/SEU_USUARIO/vitrine-local-app.git)
+git clone https://github.com/BMushi/vitrine-local.git
 Em seguida, entre na pasta do projeto que acabou de ser criada:
 
 Bash
