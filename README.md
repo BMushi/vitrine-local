@@ -1,45 +1,36 @@
-Materia: Programação de dispositivos moveis
-Prof: Julio Cartier
+Materia: Programação de dispositivos moveis Prof: Julio Cartier
 
-Alunos que participaram
-Bruna Migon: matricula 202303845847
-Juarez Souto: matricula  202302376746
- --------------------------------------------------------------------------------------------------
- Vitrine Local - Guia de Serviços Comunitários
+Alunos que participaram Bruna Migon: matricula 202303845847 Juarez Souto: matricula 202302376746
+ 
+# Vitrine Local 
 
-Este é um aplicativo móvel desenvolvido como projeto acadêmico  para resolver um problema real de impacto social: a falta de visibilidade dos pequenos empreendedores e trabalhadores autônomos locais. 
+E aí! Bem-vindo ao repositório do Vitrine Local.
 
-O **Vitrine Local** atua como um catálogo descentralizado de serviços comunitários, aproximando prestadores de serviços e moradores do mesmo bairro, estimulando a economia circular e fortalecendo a rede socioeconômica regional.
+Sabe quando você precisa de um encanador, uma manicure, ou de alguém que faça bolos no seu bairro e não sabe onde achar o contato? Esse aplicativo nasceu exatamente para resolver isso. Ele é um guia prático e offline para conectar moradores aos pequenos empreendedores e autônomos locais, ajudando a movimentar a economia da região.
 
- Funcionalidades (Operações CRUD)
+### Como o aplicativo foi construído
 
-O aplicativo foi construído com foco na gestão completa de dados, permitindo as quatro operações fundamentais:
+Para manter tudo rápido e simples, o projeto foi desenvolvido usando React Native junto com o Expo, garantindo que o aplicativo rode perfeitamente tanto em Android quanto em iOS. A transição entre as telas do formulário e da lista foi feita utilizando o React Navigation. 
 
-*Create (Criar):** Cadastro de novos empreendedores, informando nome, categoria de serviço e telefone de contato.
-*Read (Ler):** Listagem dinâmica e reativa de todos os serviços cadastrados na tela inicial.
-*Update (Atualizar):** Edição rápida de informações de serviços já existentes no catálogo.
-*Delete (Deletar):** Exclusão segura de registros de serviços que não estão mais disponíveis.
+O grande diferencial é o banco de dados. Escolhi utilizar o SQLite, o que significa que todas as informações ficam salvas diretamente no celular do usuário. Não é necessário criar contas, usar internet ou gastar dados móveis para o aplicativo funcionar.
 
-Tecnologias Utilizadas
+### Como rodar o projeto na sua máquina
 
-Este projeto foi desenvolvido utilizando uma arquitetura moderna e híbrida:
+Para testar o projeto no seu computador, você só vai precisar ter o Node.js instalado na máquina e o aplicativo Expo Go baixado no seu celular.
 
-*[React Native](https://reactnative.dev/):** Framework principal para desenvolvimento da interface.
-*[Expo](https://expo.dev/):** Plataforma que facilita a criação, testes e build do aplicativo nativo.
-*[React Navigation](https://reactnavigation.org/):** Gerenciamento de rotas e navegação em pilha (Stack Navigation) entre a listagem e os formulários.
-*[SQLite (expo-sqlite)](https://docs.expo.dev/versions/latest/sdk/sqlite/):** Banco de dados relacional embarcado, escolhido para garantir o funcionamento offline e a privacidade dos dados diretamente no dispositivo do usuário.
-
-Como executar o projeto na sua máquina
-
-Certifique-se de ter o [Node.js](https://nodejs.org/) instalado.
-
-**1. Clone o repositório e instale as dependências:**
+Primeiro, abra o seu terminal e faça o clone do projeto rodando o comando:
 ```bash
-# Clone este repositório
-git clone [https://github.com/SEU_USUARIO/vitrine-local.git](https://github.com/SEU_USUARIO/vitrine-local.git)
+git clone [https://github.com/SEU_USUARIO/vitrine-local-app.git](https://github.com/SEU_USUARIO/vitrine-local-app.git)
+Em seguida, entre na pasta do projeto que acabou de ser criada:
 
-# Acesse a pasta do projeto
-cd vitrine-local
+Bash
+cd vitrine-local-app
+Agora nós precisamos baixar as dependências que fazem o aplicativo funcionar. Digite o comando abaixo e aguarde a instalação terminar:
 
-# Instale as dependências
+Bash
 npm install
+Com tudo instalado, é só iniciar o servidor do aplicativo:
+
+Bash
+npx expo start
+Um QR Code gigante vai aparecer na tela do seu terminal. Pegue o seu celular, abra o aplicativo Expo Go e escaneie esse código.
