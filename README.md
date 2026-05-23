@@ -1,3 +1,10 @@
+Materia: Programação de dispositivos moveis
+Prof: Julio Cartier
+
+Alunos que participaram
+Bruna Migon: matricula 202303845847
+Juarez Souto: matricula  202302376746
+ --------------------------------------------------------------------------------------------------
  Vitrine Local - Guia de Serviços Comunitários
 
 Este é um aplicativo móvel desenvolvido como projeto acadêmico  para resolver um problema real de impacto social: a falta de visibilidade dos pequenos empreendedores e trabalhadores autônomos locais. 
